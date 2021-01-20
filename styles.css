@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav {
+  min-height: 40px;
+  background-color: #000;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row;
+  color: #fff;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0 ;
+  justify-content: space-around;
+}
+
+.menu li {
+  padding: 10px;
+}
+
+.name {
+  display: block;
+  margin-right: auto;
+  color: #0499ff;
+}
+
+.home:hover{
+  color: red;
+  border-bottom: 3px solid yellow;
+  transition: color 1s linear, border-bottom 1s linear;
+}
+
+header {
+  padding-top: 40px;
+  width: 100%;
+  height: 400px;
+  background-image: url('https://24tv.ua/resources/photos/news/1200x675_DIR/202009/1420740.jpg?202009210127');
+  background-size: cover;
+  text-align: center;
+}
+
+header img {
+  border-radius: 50%;
+  border: 2px solid #000;
+  transition: transform 1s ease;
+}
+
+header img:hover {
+  transform: rotate(360deg);
+  border: 3px solid #ff9f04;
+}
+
+.tag {
+  background-color: #fff;
+  display: table;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 1s ease;
+}
+
+.first-h1 {
+  background-color: #fff;
+  display: table;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.tag:hover {
+  background-color: red;
+  transition: background-color .5s linear;
+  transform: rotate(360deg);
+}
+
+.sub-title {
+  background-color: #000;
+  color: yellow;
+}
+
+.content {
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.card {
+  max-width: 500px;
+  margin: 10px;
+  padding: 50px;
+  border-bottom: 3px solid grey;
+  border-radius: 5px;
+}
+
+.tag-list {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  color: #fff;
+}
+
+.tag-yellow {
+  background-color: #ff9f04;
+}
+
+.tag-blue {
+  background-color: #ff9f04;
+}
+
+footer {
+  text-align: center;
+  padding: 60px;
+}
